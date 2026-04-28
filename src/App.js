@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/Navbar";
+import Box from '@mui/material/Box';
+import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from "./components/Footer";
+import HeroSection from "./components/HeroSection";
+import CursorGlow from "./components/CursorGlow"
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+        <CursorGlow />
+        <Box sx={{ backgroundColor: "#0f172a", minHeight: "100vh", color: "white" }}>
+            <Navbar />
+            <HeroSection />
+            <AboutMe />
+            <Skills />
+            <Projects />
+            <Contact />
+            <Footer />
+        </Box>
+        </>
+    );
 }
 
 export default App;
