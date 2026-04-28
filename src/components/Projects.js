@@ -3,7 +3,7 @@ import { Box, Typography, Card, CardContent, CardActions, Button, Chip } from "@
 import { motion } from "framer-motion";
 
 const projects = [
-    { name: "Portfolio Website", description: "Personal portfolio with React & Material UI.", link: "https://github.com/..." },
+    { name: "Portfolio Website", description: "Personal portfolio with React & Material UI.", link: "https://github.com/ivanalazarovska/portfolio" },
     { name: "FitWay App", description: "Full-stack app with React & Spring Boot", link: "https://github.com/ivanalazarovska/fitway-app" },
     { name: "Event Manager", description: "Event management platform built with Spring Boot", link: "https://github.com/ivanalazarovska/eventmanagement-app" },
     { name: "Task Manager", description: "Task manager app with .NET & React", link: null, status: "In Progress" },
